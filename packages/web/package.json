@@ -11,10 +11,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/thomvaill/log4brains",
+  "homepage": "https://github.com/mogador26/log4brains",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thomvaill/log4brains",
+    "url": "https://github.com/mogador26/log4brains",
     "directory": "packages/web"
   },
   "engines": {

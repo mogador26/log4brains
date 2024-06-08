@@ -1,6 +1,6 @@
 ---
 project:
-  name: Log4brains
+  name: ADR-FOR-ME
   tz: Europe/Paris
   adrFolder: ./docs/adr
 
