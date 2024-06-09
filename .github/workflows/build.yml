@@ -188,6 +188,7 @@ jobs:
       - name: build self knowledge base
         env:
           HIDE_LOG4BRAINS_VERSION: "1" # TODO: use lerna to bump the version temporarily here so we don't have to hide it
+          NODE_OPTIONS: --openssl-legacy-provide
         run: log4brains build --basePath /${GITHUB_REPOSITORY#*/}/adr
 
       - name: publish self knowledge base
