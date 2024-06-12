@@ -62,7 +62,7 @@ jobs:
       - name: build
         run: yarn build
   
-  # en suspens node:2390) [DEP0128] DeprecationWarning: Invalid 'main' field in '/home/runner/work/log4brains/log4brains/node_modules/eslint-config-airbnb-typescript/package.json'
+  # en suspend node:2390) [DEP0128] DeprecationWarning: Invalid 'main' field in '/home/runner/work/log4brains/log4brains/node_modules/eslint-config-airbnb-typescript/package.json'
   #    - name: format
   #      run: yarn format
 
