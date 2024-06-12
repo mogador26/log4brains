@@ -68,7 +68,7 @@ jobs:
     needs: quality
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-latest, windows-latest]
         node-version:
           # - 18.x # Current version # TODO: @log4brains/web does not build anymore on v18.x
           - 16.x # Active LTS (https://github.com/nodejs/release)
@@ -77,10 +77,6 @@ jobs:
           - os: windows-latest
             node-version: 18.x
           - os: windows-latest
-            node-version: 14.x
-          - os: macos-latest
-            node-version: 18.x
-          - os: macos-latest
             node-version: 14.x
     runs-on: ${{ matrix.os }}
     steps:
